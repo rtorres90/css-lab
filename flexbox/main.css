@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    background-color: lightblue;
+}
+
+#flexDirectionColumn{
+    flex-direction: column;
+    /*flex-direction: column-reverse;*/
+}
+
+#flexDirectionRow{
+    flex-direction: row;
+    /*flex-direction: row-reverse;*/
+}
+
+#flexWrap{
+    flex-wrap: wrap;
+}
+
+.flex-container > div{
+    background-color: lavenderblush;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
